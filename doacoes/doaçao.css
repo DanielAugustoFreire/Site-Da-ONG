@@ -74,20 +74,32 @@ p {
   font-size: 15px;
   width: 100px;
   height: 30px;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(91, 89, 89);
+  background-color: white;
+  color: black;
   cursor: pointer;
-	color: rgb(255, 255, 255);
   box-shadow: rgb(76, 89, 138) 3px 3px 3px;
+  border-radius: 5px;
   margin-left: 52px;
+  
+}
+.reset-button{
+  background-color: rgb(190, 81, 81);
+}
+.donate-button{
+  background-color:   #52ba31;
 }
 
-.reset-button {
-  background-color: red;
+.reset-button:hover{
+  background: rgba(194, 18, 18, 0.994);
+  border-radius: 5px;
+  color:#fff;
 }
 
-.donate-button {
-  background-color: #4CAF50;
-  text-align: center;
+.donate-button:hover{
+  background: #0a8f0b;
+  border-radius: 5px;
+  color:#fff;
 }
 
 footer {
