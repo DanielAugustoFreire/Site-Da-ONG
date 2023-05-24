@@ -44,3 +44,14 @@ header {
   font-size: 14px;
   cursor: pointer;
   }
+  #login3 {
+    background-color: #4c56af;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #ademir{
+    margin-right: 5px;
+  }
