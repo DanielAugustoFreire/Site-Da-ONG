@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="cssONG.css">
+	<title>Layout</title>
+</head> 
+<body>
+
+	<main>
+        <!--conteudo principal-->
+        
+        <div class="slider">
+            <div class="slides">
+              <div class="slide">
+                <img src="sobrenos.png" alt=Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="doacoes.png" alt="Imagem 2">
+              </div>
+              <div class="slide">
+                <img src="arrecadacao.png" alt="Imagem 3">
+              </div>
+            </div>
+            
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          </div>
+
+
+          <div class="container">
+            
+
+            <div class="main"><h1>Sobre nós</h1><p>A "Save Pet's" é uma organização dedicada ao bem-estar e proteção dos cães.<br>
+              Seu principal objetivo é resgatar, reabilitar e encontrar lares amorosos para cães abandonados, maltratados ou em situação de risco<br>
+              A ONG possui uma equipe de voluntários apaixonados e comprometidos que trabalham incansavelmente para garantir que os cães recebam<br>
+              os cuidados adequados e encontrem um lar onde possam viver com dignidade e carinho.<br>
+
+
+              acreditamos que todos os cães merecem uma segunda chance e se esforça para fornecer esse apoio.<br>
+              Eles possuem um abrigo onde os cães resgatados são acolhidos, recebem cuidados veterinários, alimentação adequada e todo o carinho necessário para sua recuperação física e emocional.<br>
+
+              
+              Além disso, a organização também promove campanhas de conscientização sobre a importância da adoção responsável e da posse responsável de animais de estimação.<br>
+              investimos em programas de educação para a comunidade, oferecendo palestras, workshops e atividades interativas em escolas locais<br>
+              visando ensinar as crianças sobre a importância do respeito aos animais e a maneira correta de cuidar de um pet.</p><br></div>
+              
+              <br><br><br>
+              <div class="campanha1">
+                <img src="campanha.png" alt="imagem-campanha-vacinacao"  width="169%" height="50.2%"/>
+              </div>
+              </div>
+              <div class="conteudomaster">
+              <div class="conteudo1">Através de parcerias com órgãos governamentais, empresas, clínicas veterinárias e outros profissionais da área.<br>
+              a ONG também realiza campanhas de castração, vacinação e identificação dos cães resgatados, contribuindo para o controle populacional e a prevenção de doenças.</div>
+              <div class="conteudo2">A Save Pet's conta com o apoio da comunidade local e de doadores que compartilham a mesma visão de um mundo onde todos os cães tenham a chance de viver uma vida feliz e saudável. 
+              <br>Graças aos esforços dedicados da equipe e ao apoio generoso da comunidade, a Save Pet's já conseguiu resgatar e encontrar lares para centenas de cães ao longo dos anos.</div>
+              <div class="conteudo3">Se você compartilha do amor pelos animais e deseja fazer a diferença, pode se envolver com a Save Pet's de várias maneiras
+              seja como voluntário, doador ou adotante.<br>
+              Sua contribuição ajudará a transformar a vida de muitos cães necessitados e promoverá a conscientização<br>
+              sobre a importância de tratarmos nossos amigos peludos com respeito, compaixão e amor.</div>
+            </div>
+
+              
+          
+          
+	</main>
+
+	<script src="script.js">
+        let slideIndex = 0;
+    const slides = document.getElementsByClassName("slide");
+
+    function showSlide() {
+    for (let i = 0; i < slides.length; i++) {
+    slides[i].style.transform = "translateX(-" + slideIndex + "00%)";
+    }
+    }
+
+    function changeSlide(n) {
+    slideIndex += n;
+    if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+    } else if (slideIndex >= slides.length) {
+    slideIndex = 0;
+    }
+    showSlide();
+    }
+
+    showSlide();
+    </script>
+    </body>

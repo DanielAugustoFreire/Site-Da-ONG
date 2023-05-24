@@ -1,0 +1,120 @@
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 40em;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  .container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "main main main main"
+      "conteudo1 conteudo2 conteudo3 conteudo3";
+    height: 100vh;
+    grid-gap: 2em;
+  }
+  .main{
+    float: left;
+    padding: 10px;
+    color: white;
+    background-color: #52ba31;
+    grid-area: main;
+    width: 40%;
+    height: 96%;
+    border-radius: 3px 3px 3px 3px;
+    
+  }
+  .conteudo1{
+    color: white;
+    padding: 20px;
+    background-color: #51953c;
+    grid-area: conteudo1;
+    margin: 2px;
+    border-radius: 3px 3px 3px 3px;
+
+  }
+  .conteudo2{
+    color: white;
+    padding: 20px;
+    background-color: #51953c;
+    grid-area: conteudo2;
+    margin: 2px;
+    border-radius: 3px 3px 3px 3px;
+    
+  }
+  .conteudo3{
+    color: white;
+    padding: 20px;
+    background-color: #51953c;
+    grid-area: conteudo3;
+    margin: 2px;
+    border-radius: 3px 3px 3px 3px;
+    
+  }
+
+  h1{
+    margin: 2%;
+  }
+  p{
+    margin: 2%;
+  }
+  .campanha1{
+    margin-top: 15%;
+    border-radius: 30px 30px 30px 30px;
+    left: 300px;
+    top: -695px;
+    position: relative;
+    display: flex;
+    float: right;
+    text-align: right;
+  }
+  .conteudomaster{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 100%;
+  
+  }
+  
+

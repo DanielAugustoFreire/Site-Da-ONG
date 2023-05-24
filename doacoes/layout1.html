@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="layout1.css">
+	<link rel="stylesheet" href="header.css">
+	<title>Layout</title>
+</head> 
+<body>
+	<header>
+		<a href="index.html" id="logo"><img src="redes/SavePets.png" alt="" width="60px" height="60px"></a>
+			<div class="flex-container">
+				<div class="asdf"><a href="index.html" class="asd">Home</a></div>
+				<div class="asdf"><a href="" class="asd">Notícias</a></div>
+				<div class="asdf"><a href="doaçao_index.html" class="asd">Doações</a></div> 
+				<div class="asdf"><a href="layout1.html" class="asd">Voluntários</a></div> 
+				<div class="asdf"><a href="conta_index.html" class="asd">Contato</a></div>
+		</div>
+		<div id="login" class="login-button">
+			<a href="login.html"><button id="login3"><img src="metodos-pagemento/exit.png" id="ademir" width="15px"> | ADMIN</button></a>
+	    </div>
+	</header>
+	<main>
+		<div class="flex-container">
+			<h1 class="alinhamento1">Sistema de voluntários</h1>
+		</div>
+		<div style="margin-left: 350px; padding: 45px;margin-top: -40px;">
+			<table style="border: 1px solid black; border-collapse: collapse;">
+				<thead style="background-color: green; color: white;">
+					<tr>
+						<th colspan="2">Dados do voluntário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="text-align: left; padding: 5px;">
+							<label for="data-hora">Nome</label>
+							<br>
+							<input type="text" name="Nome" placeholder="Nome" autofocus="true" required="required" size="40" maxlength="35">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: left; padding: 5px;">
+							<label for="data-hora">Endereço de E-mail</label>
+							<br>
+							<input type="text" name="Endereço de E-mail" placeholder="Endereço de E-mail" autofocus="true" required="required" size="40" maxlength="10">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: left; padding: 5px;">
+						<label for="data-hora">Telefone</label>
+						<br>
+						<input type="text" name="Telefone" placeholder="+_-(00)0000-0000" autofocus="true" required="required" size="40" maxlength="50">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: left; padding: 5px;">
+							<label for="data-hora">Endereço</label>
+							<br>
+							<input type="text" name="Endereço" placeholder="Rua" autofocus="true" required="required" size="30" maxlength="50">
+							<input type="text" name="Endereço" placeholder="Nº" autofocus="true" required="required" size="4" maxlength="50">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: left; padding: 5px;">
+							<label for="data-hora">Data de nascimento</label>
+							<br>
+							<input type="date" id="data-hora" name="data de nascimento">
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 5px;">
+							<button type="button" onclick="location.reload()" style="background-color: red; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: left; margin-right: 250px;">
+								Limpar
+							</button>
+							<button type="button" onclick="alert('Voluntário Cadastrado!')" style="background-color: green; color: white; padding: 5px 10px; border: none; cursor: pointer;text-align: right;">
+								Cadastrar
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div style="margin-left: 950px; margin-top: -420px; padding: -200px;">
+				<table style="border: 1px solid black; border-collapse: collapse;">
+					<thead>
+						<tr>
+							<th colspan="2" style="border: 1px solid black; padding: 5px; background-color: green;">
+								<label for="pesquisar" style="color:white">Voluntários cadastrados:</label>
+								<input type="text" id="pesquisar" name="pesquisar" placeholder="Digite o nome do voluntário 🔍" size="25" maxlength="50">
+							</th>
+						</tr>
+					</thead>	
+					<br>
+					<br><br>
+					<tbody>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 1 - voluntario1@email.com <input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+							</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 2 - voluntario2@email.com <input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 3 - voluntario3@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 4 - voluntario4@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 5 - voluntario5@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 6 - voluntario6@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 7 - voluntario7@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; padding: 5px; text-align: left;">Voluntário 8 - voluntario8@email.com<input type="checkbox" style="float: right;" name="voluntario1"></td>
+							<td style="border: 1px solid black; padding: 3px; text-align: left;"><button type="button" onclick="alert" style="background-color: cadetblue; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: center; margin-right: -15px;">Editar</td>
+						</tr>
+						<td colspan="2" style="border: 1px solid black; padding: 5px; text-align: left;">
+							<button type="button" onclick="alert" style="background-color: red; color: white; padding: 5px 10px; border: none; cursor: pointer; text-align: left; margin-right: 250px;">Excluir Selecionado(s)
+						</button>
+					</td>
+				</tbody>
+			</table>
+		</div>
+		<br><br><br><br><br>
+	</main>
+	
+	<footer>
+		<div id="lumina" style="margin-top: 20px;">
+			<img src="redes/Lumina.png" alt="" width="50px">
+		</div>
+		<div id="fut">
+				<p>©2023 Save Pets. Todos os direitos reservados. Desenvolvido por Luminatech.<br> Ajude-nos a salvar vidas e promover o bem-estar animal. <br> Entre em contato conosco para mais informações. <br> <br>
+			Endereço: Cidade de Deus 654 <br>
+			Telefone: +55(18) 99999-9999 <br>
+			Email: savepets_suporte@hotmail.com <br>
+			Siga-nos nas redes sociais: <br>
+		</p>
+		<a href=""><img src="redes/Instagram.png" alt="" width="22px"></a>
+		<a href=""><img src="redes/Linkedin.png" alt="" width="22px"></a>
+		<a href=""><img src="redes/Twitter.png" alt="" width="22px"></a>
+		</div>
+	
+	</footer>
+
+</body> 
