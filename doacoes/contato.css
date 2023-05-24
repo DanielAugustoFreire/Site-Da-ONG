@@ -1,0 +1,67 @@
+/* Estilos para o formulário */
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #adb3ac7e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f7f4f4b9;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8db580;
+    border-radius: 3px;
+    resize: vertical;
+    color: #405b44;
+    background-color: #eaf4e0;
+  }
+  
+  .container textarea {
+    height: 100px;
+  }
+  
+  .button-container {
+    text-align: right;
+  }
+  
+  .container input[type="submit"] {
+    background-color: #0a8f0b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+     
+  }
+
+  
+  .container input[type="submit"]:hover {
+    background-color: #264609;
+  }
+  h2{
+    margin-top: -4%;
+   
+  }
+  main{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    
+  }
