@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação via Cartão</title>
+    <link rel="stylesheet" type="text/css" href="tela_pagamento_cartao.css">
+</head>
+<body>
+    <header>
+		<img src="todas_as_bandeiras.png">
+        <h1>Doação via Cartão</h1>
+	</header>
+    <main>
+        <div class="form">
+            <h1>Dados</h1>
+            <form action="conclusão_de_pagamento.html" method="POST">
+                <div class="esp">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" size="50" required>
+                </div>
+                <div class="esp">
+                    <label for="CPF/CNPJ">CPF/CNPJ:</label><br>
+                    <input class="esp" type="text" name="CPF/CNPJ" placeholder="000.000.000-00" size="13" maxlength="14" required><br>
+                    <label for="Data">Data de Nascimento:</label><br>
+                    <input type="date" name="Data" size="13" maxlength="14" required>
+                </div>
+                <div class="esp">
+                    <label for="opção de cartao">Selecione a opção de cartão:</label>
+                    <br>
+                    <input type="radio" name="opcao1" value="1"/>Crédito
+                    <input type="radio" name="opcao1" value="2"/>Débito
+                    <br>
+                    <label for="cartão">Selecione a bandeira do cartão:</label>
+                    <label class="marginvalor" for="valor">Valor:</label>
+                    <select name=“selOpcao” >
+                        <option value=“0” ></option>
+                        <option value=“1” >MasterCard</option>
+                        <option value=“2” >VISA</option>
+                        <option value=“3” >Maestro</option>
+                        <option value=“4” >Elo</option>
+                        <option value=“5” >Alelo</option>
+                        <option value=“6” >Hipercard</option>
+                        <option value=“7” >Banco do Brasil</option>
+                        <option value=“8” >Diners Club International</option>
+                        <option value=“9” >American Express</option>
+                        <option value=“10” >VISA Electron</option>
+                    </select>  
+                    <input class="marginv" type="text" name="valor" size="13" required>        
+                </div>
+                <div class="esp">
+                <label for="numcartao">Numero do cartão:</label><br>
+                <input type="text" name="numcartao"  required>
+                <p class="peq1"><strong>somente numeros, sem pontos</strong></p>
+                <br>
+                <label for="numcartao">Código CVV:</label><br>
+
+                <input type="text" name="numcartao" size="2"  maxlength="3" required>
+                <p class="peq2"><strong>localizado atrás do cartão</strong></p>
+                </div class="esp">
+                <div>
+                    <button class="cancel" type="button" onclick="location.reload()">Apagar</button>
+                    <input class="send" type="submit" value="Enviar">
+                </div>
+                <a href="doaçao.html" class="voltar">Voltar para a página inicial</a>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

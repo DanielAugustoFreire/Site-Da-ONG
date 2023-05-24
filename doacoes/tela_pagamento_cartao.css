@@ -1,0 +1,89 @@
+*
+{
+    font-family:Arial;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 10px double black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.form
+{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.peq1
+{
+    margin:0px;
+    font-size:10px;
+    color:red;
+}
+.peq2
+{
+    margin:0px;
+    font-size:10px;
+    color:red;
+}
+.marginvalor
+{
+    margin-left:25px;
+}
+.marginv
+{
+    margin-left:80px;
+}
+.send
+{
+    background-color: #4CAF50;
+	font-size:15px;
+	border-radius: 50%;
+    width: 80px;
+    height: 35px;
+	border-color: black;
+	text-shadow: black 1px 1px 1px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: gray 3px 3px 3px;
+}
+.cancel
+{
+    margin-top:15px;
+    background-color: red;
+	font-size:15px;
+    margin-left: 120px;
+	border-radius: 50%;
+    width: 80px;
+    height: 35px;
+	border-color: black;
+	text-shadow: black 1px 1px 1px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: gray 3px 3px 3px; 
+}
+.voltar
+{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.esp
+{
+    margin-bottom: 10px;
+}

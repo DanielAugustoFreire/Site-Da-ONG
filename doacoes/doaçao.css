@@ -1,0 +1,122 @@
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+margin: 0;
+padding: 0;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+padding: 7px;
+border-bottom: 1px double green;
+}
+
+#logo {
+text-decoration: none;
+color: black;
+font-size: 24px;
+}
+
+.flex-container {
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.asdf {
+margin-left: 90px;
+color: green;
+}
+
+.asd{
+	text-decoration: none;	
+	color: rgb(30, 67, 20);
+}
+
+#login {
+margin-left: auto;
+margin-right: 10px;
+}
+
+#login2 {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 8px 16px;
+font-size: 14px;
+cursor: pointer;
+}
+
+main {
+background-color: #f9f9f9;
+padding: 20px;
+}
+
+footer {
+border-top: 1px double green;
+padding: 10px;
+font-size: x-small;
+color: grey;
+text-align: center;
+}
+
+main{
+	text-align: center;
+}
+.boleto
+{
+	margin-left:-10cm;
+	margin-bottom: 0.2cm;
+}
+.pix
+{
+	margin-top:-0.7cm;
+	margin-left: 10cm;
+	margin-bottom: 0.2cm;
+}
+.cartao
+{
+	margin-bottom: 0cm;
+}
+h1
+{
+	font-size: 2.5cm;
+	text-shadow: gray 10px 10px 10px;
+}
+.doar
+{
+	background-color: #4CAF50;
+	font-size: 25px;
+	margin-left: 15cm;
+	border-radius: 50%;
+    width: 120px;
+    height: 40px;
+	border-color: black;
+	text-shadow: black 1px 1px 1px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: gray 3px 3px 3px;
+}
+.recarregar
+{
+	background-color: red;
+	font-size: 25px;
+	border-radius: 50%; /* Define o raio de curvatura como 50% (forma oval) */
+    width: 120px; /* Largura do botão */
+    height: 40px; /* Altura do botão */;
+	border-color: black;
+	text-shadow: black 1px 1px 1px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: gray 3px 3px 3px;
+}
