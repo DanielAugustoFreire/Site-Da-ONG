@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="doaçao.css">
-	<title>Doação</title>	
-</head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="doaçao.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>Doação</title>
+</head>
 <body>
-	<header>
-		<a href="savepets.com" id="logo"><img src="redes/SavePets.png" alt="" width="60px" height="60px"></a>
+  <header>
+    <a href="savepets.com" id="logo"><img src="redes/SavePets.png" alt="" width="60px" height="60px"></a>
 
-		<div class="flex-container">
-			<div class="asdf"><a href="" class="asd">Home</a></div>
-			<div class="asdf"><a href="" class="asd">Notícias</a></div>
-			<div class="asdf"><a href="" class="asd">Doações</a></div> 
-			<div class="asdf"><a href="" class="asd">Voluntários</a></div> 
-			<div class="asdf"><a href="" class="asd">Seilá</a></div>
-		</div>
-		
-		<div id="login" class="login-button">
-			<a href="youtube.com"><button id="login2">Login</button></a>
-	  </div>
-	</header>
+    <div class="flex-container">
+      <div class="asdf"><a href="" class="asd">Home</a></div>
+      <div class="asdf"><a href="" class="asd">Notícias</a></div>
+      <div class="asdf"><a href="" class="asd">Doações</a></div>
+      <div class="asdf"><a href="" class="asd">Voluntários</a></div>
+      <div class="asdf"><a href="" class="asd">Seilá</a></div>
+    </div>
 
-	<main>
-		<form id="payment-form">
-		<h1>Doação</h1> 
-		<div class="boleto">	
-			<input type="radio" name="opcao1" value="1"/>Boleto		
-		</div>
-		<div class="pix">	
-			<input type="radio" name="opcao1" value="2"/>Pix
-		</div>
-		<div>
-			<div clas="boleto" style="margin-left:-10cm;">
-				<img src="metodos-pagemento/Boleto.png" width="162.5px" height="137.5px"/>
-			</div>
-			<div class="pix" style="margin-top:-4cm;margin-left:10cm">
-				<img src="metodos-pagemento/Pix.png" width="310px" height="150px">
-			</div>
-			<div class="cartao">	
-				<input type="radio" name="opcao1" value="3"/>Cartão
-			</div>
-			<div>
-				<div class="cartao">
-					<img src="metodos-pagemento/todas_as_bandeiras.png">
-				</div>
-			</div>
-			</div>
-			<br>
-			<br>
-			<br>
-			<button class="recarregar"type="button" onclick="location.reload()">limpar</button>
-			<input class="doar" type="submit" value="DOAR">
-			</form>
-	</main>
+    <div id="login" class="login-button">
+      <a href="youtube.com"><button id="login2">Login</button></a>
+    </div>
+  </header>
 
+  <br>
+  <main>
+    <div id="form-container">
+      <form id="payment-form">
+				<h1>Doações</h1>
+        <div class="donation-info">
+          <h2>Save Pets</h2>
+          <p>Ao fazer uma doação para a ONG Save Pets, você estará contribuindo para abrigar animais de rua, fornecer vacinas, cuidados médicos e muito mais. Sua generosidade faz a diferença na vida desses animais.</p>
+        </div>
+        <div class="payment-option">
+          <input type="radio" name="payment" value="boleto" id="boleto-option" />
+          <label for="boleto-option">Boleto</label>
+          <img src="metodos-pagemento/Boleto_Simples_X_Boleto_Registrado_Qual_a_diferenca_10_04_04.png" alt="Boleto" width="200px"/>
+        </div>
+        <div class="payment-option">
+          <input type="radio" name="payment" value="pix" id="pix-option" />
+          <label for="pix-option">Pix</label>
+          <img src="metodos-pagemento/Pix.png" alt="Pix" width="200px"/>
+        </div>
+        <div class="payment-option">
+          <input type="radio" name="payment" value="cartao" id="cartao-option" />
+          <label for="cartao-option">Cartão</label>
+          <img src="metodos-pagemento/todas_as_bandeiras.png" alt="Cartão" width="200px"/>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="button-container">
+        <button class="reset-button" type="button" onclick="location.reload()">Limpar</button>
+        <input class="donate-button" type="submit" value="Doar">
+      </div>
+    </form>
+  </main>
+<br>
 	<footer>
 		<div id="lumina" style="margin-top: 20px;">
 			<img src="redes/Lumina.png" alt="" width="50px">

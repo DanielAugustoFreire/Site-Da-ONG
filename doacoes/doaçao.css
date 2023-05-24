@@ -1,122 +1,120 @@
-*{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	text-decoration:underline;
+}
+
 body {
-margin: 0;
-padding: 0;
-}
-
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: white;
-padding: 7px;
-border-bottom: 1px double green;
-}
-
-#logo {
-text-decoration: none;
-color: black;
-font-size: 24px;
-}
-
-.flex-container {
-margin: auto;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-}
-
-.asdf {
-margin-left: 90px;
-color: green;
-}
-
-.asd{
-	text-decoration: none;	
-	color: rgb(30, 67, 20);
-}
-
-#login {
-margin-left: auto;
-margin-right: 10px;
-}
-
-#login2 {
-background-color: #4CAF50;
-color: white;
-border: none;
-padding: 8px 16px;
-font-size: 14px;
-cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
-background-color: #f9f9f9;
-padding: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#form-container {
+  position: relative;
+}
+
+.donation-info {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 50%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.payment-options {
+  margin-top: 50px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.payment-option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.payment-option img {
+  margin-left: 10%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.reset-button,
+.donate-button {
+  font-size: 25px;
+  width: 120px;
+  height: 40px;
+  border-color: black;
+  cursor: pointer;
+	color: rgb(255, 255, 255);
+  box-shadow: gray 3px 3px 3px;
+  margin-left: 52px;
+}
+
+.reset-button {
+  background-color: red;
+}
+
+.donate-button {
+  background-color: #4CAF50;
+  text-align: center;
 }
 
 footer {
-border-top: 1px double green;
-padding: 10px;
-font-size: x-small;
-color: grey;
-text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-main{
-	text-align: center;
+#lumina {
+  margin-top: 20px;
 }
-.boleto
-{
-	margin-left:-10cm;
-	margin-bottom: 0.2cm;
+
+#fut {
+  margin-top: 20px;
 }
-.pix
-{
-	margin-top:-0.7cm;
-	margin-left: 10cm;
-	margin-bottom: 0.2cm;
+
+#fut p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
 }
-.cartao
-{
-	margin-bottom: 0cm;
+
+#fut a {
+  margin-right: 10px;
 }
-h1
-{
-	font-size: 2.5cm;
-	text-shadow: gray 10px 10px 10px;
-}
-.doar
-{
-	background-color: #4CAF50;
-	font-size: 25px;
-	margin-left: 15cm;
-	border-radius: 50%;
-    width: 120px;
-    height: 40px;
-	border-color: black;
-	text-shadow: black 1px 1px 1px;
-    background-color: #4caf50;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-	box-shadow: gray 3px 3px 3px;
-}
-.recarregar
-{
-	background-color: red;
-	font-size: 25px;
-	border-radius: 50%; /* Define o raio de curvatura como 50% (forma oval) */
-    width: 120px; /* Largura do botão */
-    height: 40px; /* Altura do botão */;
-	border-color: black;
-	text-shadow: black 1px 1px 1px;
-    background-color: red;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-	box-shadow: gray 3px 3px 3px;
+
+#fut img {
+  width: 22px;
 }
