@@ -1,3 +1,5 @@
+
+/*CABEÇALHO*/
 header {
     display: flex;
     justify-content: space-between;
@@ -6,13 +8,13 @@ header {
     padding: 7px;
     border-bottom: 1px double green;
     }
-  
+    
     #logo {
     text-decoration: none;
     color: black;
     font-size: 24px;
     }
-  
+    
     .flex-container {
     margin: auto;
     display: flex;
@@ -20,22 +22,22 @@ header {
     align-items: center;
     padding: 10px;
     }
-  
+    
     .asdf {
     margin-left: 90px;
     color: green;
     }
-  
+    
     .asd{
-      text-decoration: none;
-      color: rgb(30, 67, 20);
+        text-decoration: none;	
+        color: rgb(30, 67, 20);
     }
-  
+    
     #login {
     margin-left: auto;
     margin-right: 10px;
     }
-  
+    
     #login2 {
     background-color: #4CAF50;
     color: white;
@@ -44,31 +46,19 @@ header {
     font-size: 14px;
     cursor: pointer;
     }
-    #login3 {
-      background-color: #4c56af;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-    #ademir{
-      margin-right: 5px;
-    }
-  footer {
-    border-top: 1px double green;
-    padding: 10px;
-    font-size: x-small;
-    color: grey;
-    text-align: center;
-    }
-
-
-
-
-
-
-
-
-
     
+
+
+      /* Rodapé */
+
+    footer {
+        border-top: 1px double green;
+        padding: 10px;
+        font-size: x-small;
+        color: gray;
+        text-align: center;
+        }
+        
+        main{
+            text-align: center;
+        }

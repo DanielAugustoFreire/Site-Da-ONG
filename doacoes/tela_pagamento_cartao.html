@@ -61,10 +61,18 @@
                 </div class="esp">
                 <div>
                     <button class="cancel" type="button" onclick="location.reload()">Apagar</button>
-                    <input class="send" type="submit" value="Enviar">
+                    <input class="send" type="submit" value="Enviar" return false;>
                 </div>
                 <a href="doaçao.html" class="voltar">Voltar para a página inicial</a>
             </form>
+            <script>
+                document.querySelector('form').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Impede o envio padrão do formulário
+                    
+                    // Redireciona o usuário para a página inicial após abrir o PDF
+                    window.location.href = 'conclusão_de_pagamento.html';
+                });
+            </script>
         </div>
     </main>
     
