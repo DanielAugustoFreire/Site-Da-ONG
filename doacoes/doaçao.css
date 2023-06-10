@@ -13,9 +13,11 @@ h1{
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+main{
+  background-color: rgb(228, 246, 228);
+}
 
-main {
-  border: 2px solid black;
+#main {
   padding: 20px;
   width: 70%;
   margin: 0 auto;
