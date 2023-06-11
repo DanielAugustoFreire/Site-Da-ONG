@@ -53,3 +53,7 @@
     width: 50%;
     height: 50em;
   }
+
+  #sobre_nos {
+    animation: slidein 3s ease-in 0s reverse both running;
+}
