@@ -12,6 +12,8 @@
   }
   .news-container {
     display: flex;
+    margin-left: -50%;
+    background-color: rgb(228, 246, 228);
     flex-wrap: wrap;
     justify-content: center;
     /*margin: 1rem 0;*/
@@ -23,7 +25,6 @@
   
   .news-item {
     background-color: #fff;
-    border: 1px solid rgb(203, 252, 203);
     box-shadow: rgba(0, 0, 0, 0.34) 4px 6px 8px;
     margin: 1.5rem 0;
     padding: 1rem;
@@ -48,8 +49,8 @@
 
 @keyframes slidein {
     0% {
-        transform: translateY(7%);
-        transition: (.5s);
+        transform: translatex(17%);
+        transition: (1s);
     }
     100% {
         transform: translateY(0);
